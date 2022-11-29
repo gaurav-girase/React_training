@@ -1,0 +1,44 @@
+<html>
+     <body>
+     	<div style="text-align:center">
+	     <h1 class="main_class">
+	     	Hello World
+	     </h1>
+	     <script>
+	 	   alert("Arrays with let");
+		   let cars = ["maruti 800","swift","bmw"];
+		   cars.pop(); //delete last element
+		   alert(cars);
+		   cars.push("baleno"); //add element at end
+		   alert(cars);
+		   
+		   alert("Arrays with Const");
+		   const carsWithConst = ["maruti 800 with const"," swift with const","bmw with const"];
+		   carsWithConst.pop(); //delete last element
+		   alert(carsWithConst);
+		   carsWithConst.push("Baleno with const"); //add element at end
+		   alert(carsWithConst);
+		   
+		   alert("Object with let");
+		   const testUser = {
+		   	name : "Gaurav",
+		   	age:26
+		   };
+		   testUser.subject = "English";
+		   console.log(testUser);
+		   delete testUser.age;
+		    console.log(testUser);
+		    
+		   alert("Object with Const");
+		   const userConst = {
+		   	name_const : "Gaurav with const",
+		   	age_const:26
+		   };
+		   userConst.subject = "English with const";
+		   console.log(userConst);
+		   delete userConst.age_const;
+		    console.log(userConst);
+	     </script>
+	</div>
+     </body>
+</html>
